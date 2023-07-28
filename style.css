@@ -20,7 +20,8 @@ section::before {
     border-radius: 24px;
 }
 
-.btn.button:hover, .btn.button.active {
+.btn.button:hover,
+.btn.button.active {
     border: 3px solid black;
     background-color: black;
     color: white;
@@ -39,11 +40,11 @@ section::before {
     font-size: 48px;
 }
 
-.home img{
+.home img {
     width: 100%;
 }
 
-.home .arrow img{
+.home .arrow img {
     width: 60px;
 }
 
@@ -73,6 +74,10 @@ section::before {
     content: 'Work'
 }
 
+.portfolio::before {
+    content: 'portfolio'
+}
+
 .work-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -88,7 +93,7 @@ section::before {
     position: relative;
 }
 
-.work-img-item:hover::after{
+.work-img-item:hover::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -108,7 +113,7 @@ section::before {
     grid-area: work-1;
 }
 
-#work-1:hover::after{
+#work-1:hover::after {
     content: 'Toko Amanah|UX Design';
 }
 
@@ -116,7 +121,7 @@ section::before {
     grid-area: work-2;
 }
 
-#work-2:hover::after{
+#work-2:hover::after {
     content: 'Nuri|Design';
 }
 
@@ -124,7 +129,7 @@ section::before {
     grid-area: work-3;
 }
 
-#work-3:hover::after{
+#work-3:hover::after {
     content: 'Information Sistem';
 }
 
@@ -170,4 +175,14 @@ section::before {
     100% {
         transform: translateY(0);
     }
+}
+
+.work-img-item {
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 221px;
+    justify-content: space-between;
+    cursor: pointer;
 }

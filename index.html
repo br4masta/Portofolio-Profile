@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian|Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand fs-4 fw-bold" href="#">Brian Bramasta</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#work">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -39,7 +43,9 @@
                 <h3 class="fw-semibold">Hi! I am</h3>
                 <h1 class="fw-bold">Brian Aldy Bramasta</h1>
                 <p>Frontend Developer|UI/UX Designer</p>
-                <a class="btn button" href="https://166bbf65-ff83-468b-9795-cff999d98e0d.filesusr.com/ugd/a83350_1960b01f49984106b0524fe0f6d2c791.pdf" target='_blank' download>Resume</a>
+                <a class="btn button"
+                    href="https://166bbf65-ff83-468b-9795-cff999d98e0d.filesusr.com/ugd/a83350_1960b01f49984106b0524fe0f6d2c791.pdf"
+                    target='_blank' download>Resume</a>
             </div>
             <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
                 <img src="images/pp-brian.jpg" alt="Potrait">
@@ -51,44 +57,74 @@
         </a>
     </section>
     <section id="about" class="about container">
-        <p>I am an UI/UX enthusiast. I am interested in the process of creating user interfaces. I have expertise in using design tools such as Figma and Adobe XD. I also have the ability to conduct user research and perform user testing to enhance the user experience.</p>
+        <p>I am an UI/UX enthusiast. I am interested in the process of creating user interfaces. I have expertise in
+            using design tools such as Figma and Adobe XD. I also have the ability to conduct user research and perform
+            user testing to enhance the user experience.</p>
         <div class="about-exp">
             <div class="about-exp-item">
                 <div class="about-exp-item-header">
                     <div>
-                        <h5>UI/UX Designer</h5>
+                        <h5>Front End Developer</h5>
+                        <p>Morning Glory EnterPrise (2023)</p>
+                    </div>
+                    <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+                </div>
+                <div class="about-exp-item-detail">
+
+                    <p>Developing the Frontend of a Website.</p>
+                    <ul>
+                        <li>Utilizing Silverstripe as the CMS and framework for the development.
+                        </li>
+                        <li>Implementing JavaScript and PHP programming languages.
+                        </li>
+                        <li>Collaborating with the backend team to process the data to be displayed.</li>
+                        <li>
+                            Coordinating with analysts to work on required features.</li>
+                        <li>Time management: Ensuring tasks are completed within specified deadlines.</li>
+                        <li>Handling multiple projects simultaneously.</li>
+                        <li>Creating APIs.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="about-exp-item">
+                <div class="about-exp-item-header">
+                    <div>
+                        <h5>UI/UX Designer (Internship)</h5>
                         <p>Nuri (2022)</p>
                     </div>
                     <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
                 <div class="about-exp-item-detail">
-                    <p >Solving cash on delivery issues in the E-Commerce application.</p>
+                    <p>Solving cash on delivery issues in the E-Commerce application.</p>
                     <ul>
                         <li>Learning Google Analytics
-                           </li>
-                           <li> Conducting User and Competitor Research
-                            </li>
-                            <li>Creating User Flow and Information Architecture</li>
-                            <li>
-                                Creating Wireframes</li>
-                            <li>
-                                Creating Visual Design Prototyping</li>
+                        </li>
+                        <li> Conducting User and Competitor Research
+                        </li>
+                        <li>Creating User Flow and Information Architecture</li>
+                        <li>
+                            Creating Wireframes</li>
+                        <li>
+                            Creating Visual Design Prototyping</li>
                     </ul>
                 </div>
-                
+
             </div>
-            
+
             <div class="about-exp-item">
                 <div class="about-exp-item-header">
                     <div>
-                        <h5>UI/UX Designer</h5>
+                        <h5>UI/UX Designer (Internship)</h5>
                         <p>Toko Amanah (2022)</p>
                     </div>
                     <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
 
                 <div class="about-exp-item-detail">
-                    <p >Resolving business digitalization issues, in the form of an application to check the availability of goods and adding a payment feature to the Toko Amanah application.</p>
+                    <p>Resolving business digitalization issues, in the form of an application to check the availability
+                        of goods and adding a payment feature to the Toko Amanah application.</p>
                     <p>Job Description:</p>
                     <ul>
                         <li>Conducting Competitor Research</li>
@@ -104,14 +140,15 @@
             <div class="about-exp-item">
                 <div class="about-exp-item-header">
                     <div>
-                        <h5>Fulstack Web Developer</h5>
+                        <h5>Fulstack Web Developer (Internship)</h5>
                         <p>Universitas Dr.Soetomo (2021-2022)</p>
                     </div>
                     <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
                 <div class="about-exp-item-detail">
-                   <ul>
-                        <li>Responsible to creating a web-based information system for the guidance and final project defense process using Codeigniter 4.</li>
+                    <ul>
+                        <li>Responsible to creating a web-based information system for the guidance and final project
+                            defense process using Codeigniter 4.</li>
                         <li>Responsible to creating the database flow in the thesis system process.</li>
                         <li>Responsible to managing the front end of the system.</li>
                         <li>Responsible to managing the back end of the system</li>
@@ -121,33 +158,76 @@
             </div>
         </div>
     </section>
-    <section id="work" class="work container">
+    <!-- <section id="work" class="work container">
         <div class="row d-flex align-items-center gap-5">
             <div class="col-12 col-md-5">
-                <p>This is a project that I have created. I am interested in the process of creating user interfaces. I have the ability to build and develop responsive and user-friendly websites. I use programming languages such as HTML, CSS, JavaScript, and PHP to create dynamic web applications. I also have the ability to use frameworks such as Laravel and CodeIgniter to build a website. I enjoy working in a team and am always open to learning new technologies in the field of web programming.</p>
+                <p>This is a project that I have created. I am interested in the process of creating user interfaces. I
+                    have the ability to build and develop responsive and user-friendly websites. I use programming
+                    languages such as HTML, CSS, JavaScript, and PHP to create dynamic web applications. I also have the
+                    ability to use frameworks such as Laravel and CodeIgniter to build a website. I enjoy working in a
+                    team and am always open to learning new technologies in the field of web programming.</p>
             </div>
             <div class="col-12 col-md-6 work-img">
-                <div id="work-1" class="work-img-item">    
+                <div id="work-1" class="work-img-item">
                     <img src="images/tokoamanah.jpg" alt="work 1">
-                    
+
                 </div>
-                <div id="work-2" class="work-img-item">    
-                    <img src="images/nuri.png" alt="work 2" >
+                <div id="work-2" class="work-img-item">
+                    <img src="images/nuri.png" alt="work 2">
                 </div>
-                <div id="work-3" class="work-img-item">    
-                    <img src="images/si.jpg" alt="work 3" >
+                <div id="work-3" class="work-img-item">
+                    <img src="images/si.jpg" alt="work 3">
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section id="portfolio" class="portfolio container d-flex" style="flex-direction: column; gap: 20px;">
+        <div class="row d-flex align-items-center gap-5">
+            <div class="col-12 col-md-6 work-img d-flex w-100" style="gap:80px;">
+                <div id="work-1" class="work-img-item w-100"
+                    data-link="https://brianaldybramasta.wixsite.com/brianbramasta/toko-amanah">
+                    <a href=""><img src="images/tokoamanah.jpg" alt="work 1"></a>
+                    <h3>Toko Amanah</h3>
+                </div>
+
+                <div id="work-2" class="work-img-item w-100"
+                    data-link="https://brianaldybramasta.wixsite.com/brianbramasta/cashondelivery">
+                    <a href=""><img src="images/nuri.png" alt="work 2" height="178"></a>
+                    <h3>E-Commerce PT.Nuri</h3>
+                </div>
+                <div id="work-3" class="work-img-item w-100"
+                    data-link="https://brianaldybramasta.wixsite.com/brianbramasta/siteminformasimanajementugasakhir">
+                    <a href=""><img src="images/si.jpg" alt="work 3"></a>
+                    <h3>E-Commerce PT.Nuri</h3>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row d-flex align-items-center gap-5">
+            <div class="col-12 col-md-6 work-img d-flex w-100" style="gap:80px;">
+                <div id="work-1" class="work-img-item w-100">
+                    <a href=""><img src="images/tokoamanah.jpg" alt="work 1"></a>
+                </div>
+                <div id="work-2" class="work-img-item w-100">
+                    <a href=""><img src="images/nuri.png" alt="work 2"></a>
+                </div>
+                <div id="work-3" class="work-img-item w-100">
+                    <a href=""><img src="images/si.jpg" alt="work 3"></a>
+                </div>
+            </div>
+        </div> -->
     </section>
     <section id="contact" class="contact container">
         <div class="row d-flex align-items-center gap-5">
             <div class="col-12 col-lg-6">
-                <p>I'm currently available for UI/UX and Product Design positions in Surabaya or remote working opportunities. If you like my work please send me an email or fill in the form below and let's talk. I usually reply within 48 hours!
+                <p>I'm currently available for UI/UX and Product Design positions in Surabaya or remote working
+                    opportunities. If you like my work please send me an email or fill in the form below and let's talk.
+                    I usually reply within 48 hours!
 
 
 
-                    I'm always looking to improve my skills and face interesting new challenges so it would be great to hear from you!</p>
+                    I'm always looking to improve my skills and face interesting new challenges so it would be great to
+                    hear from you!</p>
                 <div class="row">
                     <div class="col d-flex align-items-center">
                         <img class="w-25" src="images/Facebook.svg" alt="facebook icon">
@@ -166,12 +246,13 @@
             <div class="col-12 col-lg-5">
                 <form class="contact-form" onsubmit="onFormSubmit(event)">
                     <div class="mb-3">
-                      <label for="inp_email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="inp_email" placeholder="example@email.com" required>
+                        <label for="inp_email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="inp_email" placeholder="example@email.com"
+                            required>
                     </div>
                     <div class="mb-3">
-                      <label for="inp_subject" class="form-label">Subject</label>
-                      <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required>
+                        <label for="inp_subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required>
                     </div>
                     <div class="mb-3">
                         <label for="inp_message" class="form-label">Message</label>
@@ -180,13 +261,19 @@
                     <div class="d-flex justify-content-center mt-5">
                         <button type="submit" class="btn button">Submit</button>
                     </div>
-                  </form>
+                </form>
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
