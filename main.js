@@ -34,8 +34,6 @@ function onFormSubmit(e) {
 
 $(document).on("click", ".work-img-item", function () {
     let newPageURL = $(this).data('link');
-
-
     // Open the link in a new tab
     window.open(newPageURL, "_blank");
 });

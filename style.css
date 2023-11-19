@@ -161,6 +161,11 @@ section::before {
         left: -10px;
         font-size: 64px;
     }
+
+    .wrap-portofolio {
+        flex-direction: column;
+    }
+
 }
 
 @keyframes upDown {
