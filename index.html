@@ -244,19 +244,22 @@
                 </div>
             </div>
             <div class="col-12 col-lg-5">
-                <form class="contact-form" onsubmit="onFormSubmit(event)">
+                <!-- <form class="contact-form" onsubmit="onFormSubmit(event)"> -->
+                <form class="contact-form" action="https://formspree.io/f/mknllwqe" method="POST">
                     <div class="mb-3">
                         <label for="inp_email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="inp_email" placeholder="example@email.com"
-                            required>
+                        <input type="email" name="email" class="form-control" id="inp_email"
+                            placeholder="example@email.com" required>
                     </div>
                     <div class="mb-3">
                         <label for="inp_subject" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject" required>
+                        <input type="text" name="subject" class="form-control" id="inp_subject"
+                            placeholder="Your Subject" required>
                     </div>
                     <div class="mb-3">
                         <label for="inp_message" class="form-label">Message</label>
-                        <input type="text" class="form-control" id="inp_message" placeholder="Your Message" required>
+                        <input type="text" name="message" class="form-control" id="inp_message"
+                            placeholder="Your Message" required>
                     </div>
                     <div class="d-flex justify-content-center mt-5">
                         <button type="submit" class="btn button">Submit</button>
